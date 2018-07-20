@@ -1,3 +1,5 @@
+# Bytelandian gold coins (CodeChef - Medium)
+
 All submissions for this problem are available.<br>
 In Byteland they have a very strange monetary system.<br>
 

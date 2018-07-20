@@ -6,16 +6,16 @@ They saw it for the first time but were already getting bored to see a bunch of 
 
 There are N tweets on the page and each tweet can be opened by clicking on it, to see some statistics related to that tweet. Initially all the tweets are closed. Clicking on an open tweet closes it and clicking on a closed tweet opens it. There is also a button to close all the open tweets. Given a sequence of K clicks by Jack, Evan has to guess the total number of open tweets just after each click.<br> Please help Evan in this game.<br>
 <br>
-Input<br>
+### Input<br>
 First line contains two integers N K, the number of tweets (numbered 1 to N) and the number of clicks respectively (1 ≤ N, K ≤ 1000).<br> Each of the following K lines has one of the following.<br>
 CLICK X , where X is the tweet number (1 ≤ X ≤ N)<br>
 CLOSEALL<br>
 <br>
-Output<br>
+### Output<br>
 Output K lines, where the ith line should contain the number of open tweets just after the ith click.<br>
 <br>
 Example<br>
-Input:<br>
+### Input:<br>
 3 6<br>
 CLICK 1<br>
 CLICK 2<br>
@@ -24,7 +24,7 @@ CLICK 2<br>
 CLOSEALL<br>
 CLICK 1<br>
 <br>
-Output:<br>
+### Output:<br>
 1<br>
 2<br>
 3<br>
@@ -32,7 +32,7 @@ Output:<br>
 0<br>
 1<br>
 <br>
-Explanation:<br>
+### Explanation:<br>
 <br>
 Let open[x] = 1 if the xth tweet is open and 0 if its closed.<br>
 Initially open[1..3] = { 0 , 0 , 0 }. Here is the state of open[1..3] after each click and corresponding count of open tweets.<br>

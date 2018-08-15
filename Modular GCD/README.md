@@ -1,7 +1,7 @@
 # Modular GCD (CodeChef)
 
 
-Given integers A, B and N, you should calculate the GCD of AN+BN and |A−B|. (Assume that GCD(0,a)=a for any positive integer a). Since this number could be very large, compute it modulo 1000000007 (109+7).<br>
+Given integers A, B and N, you should calculate the GCD of A^N+B^N and |A−B|. (Assume that GCD(0,a)=a for any positive integer a). Since this number could be very large, compute it modulo 1000000007 (109+7).<br>
 
 #### Input<br>
 The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.<br>
